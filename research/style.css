@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 900; */
+    /* font-style: italic; */
+}
+.sect-heading{
+    font-family: "Cinzel", serif;
+}
+.logo h1{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: lawngreen;
+    
+    
+}
+.logo{
+    /* width: 60%; */
+    flex-shrink: initial;
+}
+.navlinks{
+    /* width: 40%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 50%; */
+    flex-wrap: wrap;
+    
+
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    
+}
+main{
+    border: solid blue;
+    margin-top: 0rem;
+}
+.main-sub{
+    background-color: salmon;
+    display: flex;
+}
+.principal-sect{
+    width: 50%;
+    background-color: olive;
+    padding: 3rem;
+}
+.research-sect{
+    width: 50%;
+    background-color: seagreen;
+    padding: 3rem;
+}
+.lab-sect{
+    width: 50%;
+    background-color: greenyellow;
+    padding: 3rem;
+}
+.join-sect{
+    width: 50%;
+    background-color: olivedrab;
+    padding: 3rem;
+}
