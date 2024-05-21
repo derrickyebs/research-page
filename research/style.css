@@ -1,72 +1,102 @@
 *{
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     font-family: "Roboto", sans-serif;
-    /* font-weight: 900; */
-    /* font-style: italic; */
 }
 .sect-heading{
     font-family: "Cinzel", serif;
 }
-.logo h1{
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+.logo h2{
+    font-family: "Cinzel";
+    /* font-optical-sizing:none; */
+    font-weight: 500;
+    width: 60%;
+    /* font-style: normal; */
 
 }
-header{
+
+.navbar{
     display: flex;
-    flex-direction: row;
-    padding: 1rem;
-    background-color: lawngreen;
-    
-    
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    padding: 1rem 2rem;
+    /* margin-bottom: 30rem; */
+    background-color: rgb(9, 9, 54);
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
-.logo{
-    /* width: 60%; */
-    flex-shrink: initial;
+header{
+    position: relative;
 }
 .navlinks{
-    /* width: 40%; */
+    /* width: 60%; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    /* width: 50%; */
+    width: 40%;
+    padding-right: 2rem;
+    justify-content: space-around;
     flex-wrap: wrap;
+    list-style: none;
     
-
 }
+
+.image-slider{
+ 
+    top: 6rem;
+    height: auto;
+    /* margin-top: 10rem; */
+}
+
 .navlinks a{
-    text-decoration: none;
-    color: black;
-    
+    /* text-decoration: none; */
+    color: inherit;
+    /* float: left; */
+}
+.navlinks li a:hover {
+    transition: 0.4s ease-in-out;
+    color: blue;
+    /* text-decoration: solid; */
+  }
+.image-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
 main{
-    border: solid blue;
-    margin-top: 0rem;
+    /* margin-top: 0rem; */
+    background-color: rgb(255, 255, 255);
 }
 .main-sub{
-    background-color: salmon;
     display: flex;
 }
 .principal-sect{
     width: 50%;
-    background-color: olive;
-    padding: 3rem;
+    /* background-color: olive; */
+    padding: 3rem 3rem;
 }
 .research-sect{
     width: 50%;
-    background-color: seagreen;
-    padding: 3rem;
+    /* background-color: seagreen; */
+    padding: 3rem 3rem;
 }
 .lab-sect{
     width: 50%;
-    background-color: greenyellow;
-    padding: 3rem;
+    /* background-color: greenyellow; */
+    padding: 3rem 3rem;
 }
 .join-sect{
     width: 50%;
-    background-color: olivedrab;
-    padding: 3rem;
+    /* background-color: olivedrab; */
+    padding: 3rem 3rem;
+}
+.icon{
+    font-size: 6rem;
+    color: rgb(9, 9, 54);
 }
