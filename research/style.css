@@ -12,8 +12,12 @@
     /* font-optical-sizing:none; */
     font-weight: 500;
     width: 60%;
+    /* border: solid saddlebrown; */
     /* font-style: normal; */
-
+}
+.logo a{
+    text-decoration: none;
+    color: white;
 }
 
 .navbar{
@@ -31,7 +35,7 @@
     z-index: 1000;
 }
 header{
-    position: relative;
+    /* position: relative; */
 }
 .navlinks{
     /* width: 60%; */
@@ -48,8 +52,8 @@ header{
 
 .image-slider{
  
-    top: 6rem;
-    height: auto;
+    /* top: 10rem; */
+    /* height: auto; */
     /* margin-top: 10rem; */
 }
 
@@ -59,19 +63,28 @@ header{
     /* float: left; */
 }
 .navlinks li a:hover {
-    transition: 0.4s ease-in-out;
-    color: blue;
+    transition: ease-in-out 0.1s;
+    color: rgb(128, 128, 255);
     /* text-decoration: solid; */
   }
 .image-slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 1rem; */
+}
+.image-slider img{
+    max-width: 100%;
+    opacity: 0.7;
+    /* height: auto; */
+    /* position: absolute; */
+    /* top: 10rem; */
+    /* z-index: 100; */
 }
 main{
     /* margin-top: 0rem; */
     background-color: rgb(255, 255, 255);
+    /* z-index: 90; */
 }
 .main-sub{
     display: flex;
@@ -80,6 +93,9 @@ main{
     width: 50%;
     /* background-color: olive; */
     padding: 3rem 3rem;
+}
+.principal-sect a{
+    color: blue;
 }
 .research-sect{
     width: 50%;

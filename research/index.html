@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KNUST</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./images/favicon.png" type="image/ico" sizes="32x32">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,15 +17,20 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+
+  <style>
+    .home{ color: rgb(128, 128, 255);}
+  </style>
+ 
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <div class="navbar animate__animated animate__fadeInDown animate__delay-0s">
             <div class="logo">
-                <h2>Structural Health And Monitoring Programme</h2> 
+                <a href=""> <h2>Structural Health And Monitoring Programme</h2>  </a>
             </div>
             <div class="navlinks">
-                <li><a href="./">Home</a></li>
+                <li class="home"><a href="./">Home</a></li>
                 <li><a href="./">People</a></li>
                 <li><a href="./">Research</a></li>
                 <li><a href="./">Publications</a></li>
@@ -33,22 +39,23 @@
             </div>
         </div>
         <div class="image-slider">
-            <img src="./images/img1.jpg" alt="" height="400px" width="90%">
+            <img src="./images/img1.jpg" alt="" height="420px" width="100%" >
         </div>
     </header>
 
     <main>
         <div class="main main-sub main-sub1">
-            <div class="principal-sect ">
-                <i class='bx bxs-user icon'></i>
-                <h1 class="sect-heading">PRINCIPAL INVESTIGATOR</h1>
+            <div class="principal-sect animate__animated animate__fadeInLeft animate__delay-1s ">
+                
+                <i class='bx bxs-user icon sect-heading '></i>
+                <h1 class="sect-heading ">PRINCIPAL INVESTIGATOR</h1>
                 <p><b>Dr. Jones O. Twumasi </b></p>
                 <p><b>Dr. of Engineering, KNUST</p> </b> <br>
                 <p class="sect-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta, assumenda itaque mollitia dolorem explicabo corporis doloremque facilis odit cum consequuntr, eveniet autem molestiae cumque, suscipit libero magnam aliquam inventore ut voluptates optio placeat. Ab neque, beatae porro itaque, quisquam veniam nobis illo qui impedit laudantium debitis voluptatum quis rem labore, ea aspernatur id sequi ratione? Quasi laboriosam dolore quos atque ea tempore, aliquid sapiente deleniti vero nihil, hic, molestias incidunt impedit ratione recusandae quam? Ipsum fugiat quia modi aliquam officia libero labore illum animi, ut, ratione dolores repellat ullam. Et aperiam nostrum pariatur quam impedit obcaecati eveniet ullam voluptatibus.</p>   
-                <p>Access <a href="https://webapps.knust.edu.gh/staff/dirsearch/profile/summary/f99fcb8b9fdc.html"> personal website</a></p>
+                <p>Access <a href="https://webapps.knust.edu.gh/staff/dirsearch/profile/summary/f99fcb8b9fdc.html"> personal profile website.</a></p>
             </div>
             
-            <div class="research-sect">
+            <div class="research-sect principal-sect animate__animated animate__fadeInRight animate__delay-1s">
                 <i class='bx bx-book-reader icon'></i>
                 <h1 class="sect-heading">Our Research</h1> <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, inventore maxime molestias quo totam ut placeat sequi sunt architecto corporis laboriosam rerum molestiae facilis iste dolorum voluptas, obcaecati cum unde delectus? Maxime nobis quam vero natus! Modi magnam ratione iste aliquam eius quos beatae, rerum animi eum inventore. Rem, totam fuga recusandae ipsam vel placeat, molestiae, reprehenderit cumque cum odio fugit debitis sunt pariatur modi earum consequatur hic doloribus voluptatem?</p>
