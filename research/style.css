@@ -98,13 +98,13 @@ main{
     font-size: 6rem;
     color: rgb(9, 9, 54);
 }
-footer{
+.footer-container{
     /* height: 5rem; */
-    background-color: rgb(38, 38, 94);
+    background-color: rgb(9, 9, 54);
     color: white;
     padding: 2rem 3rem;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: row;
 }
 .contact{
     display: flex;
