@@ -9,11 +9,8 @@
 }
 .logo h2{
     font-family: "Cinzel";
-    /* font-optical-sizing:none; */
     font-weight: 500;
-    width: 60%;
-    /* border: solid saddlebrown; */
-    /* font-style: normal; */
+    /* width: 60%; */
 }
 .logo a{
     text-decoration: none;
@@ -25,94 +22,97 @@
     width: 100%;
     overflow: hidden;
     justify-content: space-between;
-    /* flex-direction: row; */
-    padding: 1rem 2rem;
-    /* margin-bottom: 30rem; */
+    align-items: center;
+    padding: 25px 2rem;
     background-color: rgb(9, 9, 54);
     color: white;
     position: fixed;
     top: 0;
     z-index: 1000;
+    /* height: 3rem; */
 }
 header{
     /* position: relative; */
 }
 .navlinks{
-    /* width: 60%; */
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 40%;
     padding-right: 2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     list-style: none;
+    gap: 1rem;
     
 }
 
-.image-slider{
- 
-    /* top: 10rem; */
-    /* height: auto; */
-    /* margin-top: 10rem; */
+.navlinks a{
+    color: inherit;
 }
 
-.navlinks a{
-    /* text-decoration: none; */
-    color: inherit;
-    /* float: left; */
-}
 .navlinks li a:hover {
     transition: ease-in-out 0.1s;
     color: rgb(128, 128, 255);
-    /* text-decoration: solid; */
   }
-.image-slider{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-top: 1rem; */
-}
+
 .image-slider img{
     max-width: 100%;
-    opacity: 0.7;
-    /* height: auto; */
-    /* position: absolute; */
-    /* top: 10rem; */
-    /* z-index: 100; */
+    opacity: 1;
 }
+
 main{
-    /* margin-top: 0rem; */
     background-color: rgb(255, 255, 255);
-    /* z-index: 90; */
+    padding-bottom: 10rem;
 }
+
 .main-sub{
     display: flex;
 }
+
 .principal-sect{
     width: 50%;
-    /* background-color: olive; */
     padding: 3rem 3rem;
 }
+
 .principal-sect a{
     color: blue;
 }
+
 .research-sect{
     width: 50%;
-    /* background-color: seagreen; */
     padding: 3rem 3rem;
 }
+
 .lab-sect{
     width: 50%;
-    /* background-color: greenyellow; */
     padding: 3rem 3rem;
 }
+
 .join-sect{
     width: 50%;
-    /* background-color: olivedrab; */
     padding: 3rem 3rem;
 }
+
 .icon{
     font-size: 6rem;
     color: rgb(9, 9, 54);
+}
+footer{
+    /* height: 5rem; */
+    background-color: rgb(38, 38, 94);
+    color: white;
+    padding: 2rem 3rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem 1rem; */
+    /* border: solid rebeccapurple; */
+    width: 50%;
+    justify-content: space-evenly;
+    gap: 1rem;
+    /* align-items: center; */
 }
