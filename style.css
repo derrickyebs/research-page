@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+.sect-heading{
+    font-family: "Cinzel", serif;
+}
+.logo h2{
+    font-family: "Cinzel";
+    font-weight: 500;
+    /* width: 60%; */
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 2rem;
+    background-color: rgb(9, 9, 54);
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    padding-right: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    
+}
+
+.navlinks a{
+    color: inherit;
+    font-family: "Cinzel";
+    font-weight: 10;
+}
+
+.navlinks li a:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(128, 128, 255);
+  }
+
+.image-slider img{
+    max-width: 100%;
+    opacity: 1;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10rem;
+}
+
+.main-sub{
+    display: flex;
+}
+
+.principal-sect{
+    width: 50%;
+    padding: 3rem 3rem;
+}
+
+.principal-sect a{
+    color: blue;
+}
+
+.research-sect{
+    width: 50%;
+    padding: 3rem 3rem;
+}
+
+.lab-sect{
+    width: 50%;
+    padding: 3rem 3rem;
+}
+
+.join-sect{
+    width: 50%;
+    padding: 3rem 3rem;
+}
+
+.icon{
+    font-size: 6rem;
+    color: rgb(9, 9, 54);
+}
+.footer-container{
+    background-color: rgb(9, 9, 54);
+    color: white;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer a{
+    color: inherit;
+}
+footer a :hover{
+    transition: ease-in-out 0.1s;
+    font-size: 17px;
+
+}
+.contact{
+    display: flex;
+   
+    flex-direction: column;
+    padding: 0rem 1rem;
+    justify-content: space-evenly;
+}
+.contact h1, .iframe-container h1{
+    font-family: "Cinzel";
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.contact p{
+    font-family: "Cinzel";
+    font-weight: 10;
+}
+.iframe-container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4rem 2rem 2rem 2rem;
+    gap: 1rem;
+}
