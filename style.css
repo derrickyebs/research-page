@@ -3,7 +3,11 @@
     padding: 0;
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .sect-heading{
     font-family: "Cinzel", serif;
 }
@@ -114,7 +118,6 @@ footer a{
 }
 .contact{
     display: flex;
-   
     flex-direction: column;
     padding: 0rem 1rem;
     justify-content: space-evenly;
@@ -130,15 +133,16 @@ footer a{
     font-weight: 10;
 }
 .iframe-container{
+    /* display: block; */
     width: 50%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     padding: 4rem 2rem 2rem 2rem;
     gap: 1rem;
 }
-@media (max-width:480px) {
+@media screen and (max-width:480px) {
     .navbar{
         padding: 1rem;
         flex-direction: row;
@@ -183,11 +187,14 @@ footer a{
         width: auto;
         padding: 3rem 2rem;
         
-    }¬
+    }
+    
     .footer-container{
+        overflow-y: hidden;
         padding: 2rem 1rem;
         display: flex;
         flex-direction: column;
+        padding-bottom: 3rem;
     }
     .iframe-container{
         display: none;
@@ -203,9 +210,28 @@ footer a{
         font-size: 16px;
         
     }
-
     
-
-
+}
+@media (min-width:768px) and (max-width:991px) {
+    
+    .iframe-container{
+        display: none;
+    }
+    .footer-container{
+        padding: 3rem 0rem;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .contact{
+        width: auto;
+        justify-content: center;
+    }
+    .contact h1{
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .contact a:hover{
+        font-size: 16px;
+    }
     
 }
