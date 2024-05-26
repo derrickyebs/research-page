@@ -27,7 +27,7 @@
     background-color: rgb(9, 9, 54);
     color: white;
     position: fixed;
-    top: 0;
+    /* top: 0; */
     z-index: 1000;
 }
 .navlinks{
@@ -107,10 +107,9 @@ main{
 footer a{
     color: inherit;
 }
-footer a :hover{
+.contact a :hover{
     transition: ease-in-out 0.1s;
-    font-size: 17px;
-
+    /* font-size: 17px; */
 }
 .contact{
     display: flex;
@@ -137,4 +136,78 @@ footer a :hover{
     align-items: center;
     padding: 4rem 2rem 2rem 2rem;
     gap: 1rem;
+}
+@media (max-width:480px) {
+    .navbar{
+        padding: 1rem;
+        flex-direction: row;
+
+    }
+    .navlinks{
+        display: none;
+        /* opacity: 0; */
+    }
+    img{
+        max-width: auto;
+        /* max-height: fit-content; */
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-sub1{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        /* border: solid saddlebrown; */
+    }
+    .principal-sect{
+        width: auto;
+        padding: 3rem 2rem;
+    }
+    .research-sect{
+        width: auto;
+        padding: 3rem 2rem;
+    }
+    .main-sub2{
+        display: flex;
+        flex-direction: column;
+    }
+    .lab-sect{
+        width: auto;
+        padding: 3rem 2rem;
+    }
+    .join-sect{
+        width: auto;
+        padding: 3rem 2rem;
+        
+    }
+    .footer-container{
+        /* border: solid peachpuff; */
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .iframe-container{
+        display: none;
+    }
+    .contact{
+        /* border: solid peachpuff; */
+        width: auto;
+        /* pad */
+        /* width:; */
+    }
+    .contact h1{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .contact a:hover{
+        font-size: 16px;
+        
+    }
+
+    
+
+
+    
 }
