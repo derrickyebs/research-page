@@ -163,6 +163,10 @@ footer a{
         width: auto;
         padding: 3rem 2rem;
     }
+    .principal-sect a{
+        /* color: blue; */
+        color: rgb(16, 16, 127);
+    }
     .research-sect{
         width: auto;
         padding: 3rem 2rem;
@@ -179,7 +183,7 @@ footer a{
         width: auto;
         padding: 3rem 2rem;
         
-    }
+    }¬
     .footer-container{
         padding: 2rem 1rem;
         display: flex;
